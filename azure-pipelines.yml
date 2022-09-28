@@ -22,7 +22,7 @@ steps:
 
 - task: AzureCLI@2
   inputs:
-    azureSubscription: '$(SUBSCRIPTION_ID)'
+    azureSubscription: 'RRoss Sandbox'
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
     inlineScript: |
