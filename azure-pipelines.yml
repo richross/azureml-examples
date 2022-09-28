@@ -22,7 +22,7 @@ steps:
 
 - task: AzureCLI@2
   inputs:
-    azureSubscription: 'RRoss Sandbox'
+    azureSubscription: 'AzureMLServConn'
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
     inlineScript: |
